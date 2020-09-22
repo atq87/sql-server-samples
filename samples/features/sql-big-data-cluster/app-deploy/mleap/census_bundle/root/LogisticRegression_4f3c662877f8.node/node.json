@@ -1,0 +1,19 @@
+{
+  "name": "LogisticRegression_4f3c662877f8",
+  "shape": {
+    "inputs": [{
+      "port": "features",
+      "name": "features"
+    }],
+    "outputs": [{
+      "port": "raw_prediction",
+      "name": "rawPrediction"
+    }, {
+      "port": "probability",
+      "name": "probability"
+    }, {
+      "port": "prediction",
+      "name": "prediction"
+    }]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "op": "string_indexer",
+  "attributes": {
+    "labels": {
+      "string": ["<=50K", ">50K"],
+      "type": "list"
+    },
+    "handle_invalid": {
+      "string": "error"
+    }
+  }
+}

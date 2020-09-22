@@ -1,0 +1,11 @@
+IF DB_NAME() != 'AdventureWorksDW2012' 
+USE AdventureWorksDW2012
+SET NOCOUNT ON
+GO
+
+EXECUTE sp_query_store_flush_db;
+GO
+
+DBCC FREEPROCCACHE;
+--ALTER DATABASE current SET COMPATIBILITY_LEVEL = 140
+GO

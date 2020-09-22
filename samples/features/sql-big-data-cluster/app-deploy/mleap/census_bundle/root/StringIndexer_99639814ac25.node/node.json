@@ -1,0 +1,13 @@
+{
+  "name": "StringIndexer_99639814ac25",
+  "shape": {
+    "inputs": [{
+      "port": "input",
+      "name": "income"
+    }],
+    "outputs": [{
+      "port": "output",
+      "name": "label"
+    }]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "VectorAssembler_f41fed146d98",
+  "shape": {
+    "inputs": [{
+      "port": "input0",
+      "name": "hours_per_week"
+    }, {
+      "port": "input1",
+      "name": "age"
+    }],
+    "outputs": [{
+      "port": "output",
+      "name": "features"
+    }]
+  }
+}
